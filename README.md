@@ -37,3 +37,6 @@ O projeto segue uma arquitetura modular com:
 - 📂 `/utils`: Funções utilitárias
 
 ## 🚀 Como Executar
+
+`npm i`
+`npm run dev`
