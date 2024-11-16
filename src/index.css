@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-100;
+  }
+}
+
+@layer components {
+  input[type="text"],
+  input[type="date"],
+  textarea,
+  select {
+    @apply block w-full rounded-md border-gray-300 shadow-sm;
+  }
+
+  .theme-green input:focus,
+  .theme-green textarea:focus,
+  .theme-green select:focus {
+    @apply focus:border-emerald-500 focus:ring-emerald-500;
+  }
+
+  .theme-blue input:focus,
+  .theme-blue textarea:focus,
+  .theme-blue select:focus {
+    @apply focus:border-blue-500 focus:ring-blue-500;
+  }
+
+  .theme-purple input:focus,
+  .theme-purple textarea:focus,
+  .theme-purple select:focus {
+    @apply focus:border-purple-500 focus:ring-purple-500;
+  }
+}
