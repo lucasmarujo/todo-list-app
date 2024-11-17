@@ -1,5 +1,7 @@
 # 🚀 Todo Dashboard
 
+[Acesse aqui](https://lucasmarujo.github.io/todo-list-app/)
+
 ## 📋 Sobre o Projeto
 
 Um dashboard moderno e intuitivo para gerenciamento de tarefas, construído com React e TypeScript. O projeto oferece uma interface rica com animações fluidas, gerenciamento de estado eficiente e múltiplos temas visuais.
