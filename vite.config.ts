@@ -6,5 +6,5 @@ export default defineConfig({
   server: {
     port: 3000
   },
-  base: '/todo-list-app/'
+  base: '/to-do-list-app/'
 })
